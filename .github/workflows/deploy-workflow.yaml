@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: devcloud-rakesh
+    runs-on: self-hosted
 
     steps:      
       
@@ -16,7 +16,7 @@ jobs:
             echo "Hi"
             
   do-something-else:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - run: echo "Hello"
