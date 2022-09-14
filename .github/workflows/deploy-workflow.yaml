@@ -1,6 +1,7 @@
 name: Create and Publish Docker Image
 
 on:
+  push:
   workflow_call:
 
 
