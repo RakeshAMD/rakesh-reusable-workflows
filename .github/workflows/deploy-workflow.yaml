@@ -16,7 +16,7 @@ jobs:
             echo "Hi"
             
   do-something-else:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
     - run: echo "Hello"
