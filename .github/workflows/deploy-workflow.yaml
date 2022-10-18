@@ -19,4 +19,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: echo ${{ secrets.RAKESH }}
+    - run: echo ${{ secrets.rakesh }}
